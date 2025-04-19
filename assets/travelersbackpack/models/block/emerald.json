@@ -1,0 +1,8 @@
+{
+    "credit": "Made with Blockbench by TyBraniff for use with Bluemap x TravelersBackpack",
+	"texture_size": [64, 64],
+    "parent": "travelersbackpack:block/backpack",
+	"textures": {
+		"0": "travelersbackpack:model/emerald"
+	}
+}

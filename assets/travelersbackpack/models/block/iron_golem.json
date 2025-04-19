@@ -1,8 +1,23 @@
 {
-    "credit": "Made with Blockbench by TyBraniff for use with Bluemap x TravelersBackpack",
+	"credit": "Made with Blockbench by TyBraniff for TravelersBackpack x Bluemap",
 	"texture_size": [64, 64],
-    "parent": "travelersbackpack:block/villager",
+    "parent": "travelersbackpack:block/backpack",
 	"textures": {
 		"0": "travelersbackpack:model/iron_golem"
-	}
+	},
+	"elements": [
+		{
+			"from": [7, 2, 12],
+			"to": [9, 6, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 12]},
+			"faces": {
+				"north": {"uv": [8.25, 5.5, 8.75, 6.5], "texture": "#0"},
+				"east": {"uv": [7.75, 5.5, 8.25, 6.5], "texture": "#0"},
+				"south": {"uv": [9.25, 5.5, 9.75, 6.5], "texture": "#0"},
+				"west": {"uv": [8.75, 5.5, 9.25, 6.5], "texture": "#0"},
+				"up": {"uv": [8.75, 5.5, 8.25, 5], "texture": "#0"},
+				"down": {"uv": [9.25, 5, 8.75, 5.5], "texture": "#0"}
+			}
+		}
+	]
 }

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench by TyBraniff for TravelersBackpack x Bluemap",
+	"texture_size": [64, 64],
+    "parent": "travelersbackpack:block/villager",
+	"textures": {
+		"0": "travelersbackpack:model/iron_golem"
+	}
+}
